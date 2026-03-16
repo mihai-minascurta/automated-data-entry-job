@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=FE428E&center=true&vCenter=true&width=600&lines=%F0%9F%8F%A0+Automated+Data+Entry+Bot;%F0%9F%94%8D+Zillow+Scraper+%2B+Google+Forms;%E2%8C%9B+Time-Saving+Automation" alt="Animated Header" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=FE428E&center=true&vCenter=true&width=600&lines=%F0%9F%8F%A0+Automated+Data+Entry+Bot;%F0%9F%94%8D+Web+Scraper+%2B+Form+Automation;%E2%8C%9B+Process+Efficiency+Tool" alt="Animated Header" />
 </div>
 
 <br>
@@ -19,13 +19,13 @@
   <img src="https://placehold.co/1000x2/C3B550/C3B550.png" width="100%" height="2" alt="Yellow Divider"/>
 </h3>
 
-A powerful data research tool that automates the tedious task of property hunting. The bot scrapes rental listings from a Zillow-like clone (or real Zillow) to extract prices, addresses, and links, and then programmatically populates a Google Form with the collected data to create an organized spreadsheet.
+A sophisticated automation script designed to streamline real estate data collection. The bot harvests property listings (prices, addresses, and URLs) from a research website and programmatically populates a Google Form, effectively transforming unstructured web data into a structured spreadsheet format.
 
-**Key Features:**
-* **🕷️ Data Harvesting:** Uses `BeautifulSoup` to parse complex HTML and extract rental information from real estate platforms.
-* **📋 Form Automation:** Employs `Selenium` to navigate Google Forms and input the scraped data into specific fields.
-* **⚡ Efficiency:** Replaces hours of manual data entry with a script that completes the entire process in seconds.
-* **🧹 Data Cleaning:** Cleans and formats scraped strings (like stripping extra symbols from price tags) before submission.
+**Technical Logic (Verified):**
+* **🕷️ Data Harvesting:** Utilizes `BeautifulSoup` to parse complex HTML structures, extracting specific real estate metrics through targeted CSS selectors.
+* **🧹 String Sanitization:** Implements data cleaning logic during the scraping phase to remove inconsistent formatting and currency symbols before transmission.
+* **📋 Form Orchestration:** Leverages `Selenium` to automate the data entry pipeline, managing multiple input fields and form submissions in a continuous loop.
+* **⚡ Workflow Integration:** Bridges two distinct web technologies to create a seamless end-to-end automation solution for repetitive research tasks.
 
 <br>
 
@@ -36,11 +36,10 @@ A powerful data research tool that automates the tedious task of property huntin
 
 ```text
 automated-data-entry-job/
-├── main.py                     # Scraper logic and Selenium automation
+├── main.py                     # Scraper logic and Selenium automation controller
 ├── requirements.txt            # Project dependencies
 └── README.md                   # Documentation
 ```
-
 <h3>
   🧠 Code Review & Complexity<br>
   <img src="https://placehold.co/1000x2/C3B550/C3B550.png" width="100%" height="2" alt="Yellow Divider"/>
@@ -55,19 +54,19 @@ automated-data-entry-job/
 > **📊 SYSTEM COMPLEXITY RADAR**
 >
 > 🟩🟩🟩🟩🟩🟩🟩🟩⬛⬛ **80%** | **HTML Parsing (BeautifulSoup)**<br>
-> 🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛ **80%** | **Dynamic Form Interaction**<br>
-> 🟦🟦🟦🟦🟦🟦⬛⬛⬛⬛ **60%** | **Data Cleaning & Formatting**<br>
+> 🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛ **80%** | **Automation Flow (Selenium)**<br>
+> 🟦🟦🟦🟦🟦🟦⬛⬛⬛⬛ **60%** | **Data Sanitization**<br>
 > 🟪🟪🟪🟪🟪🟪🟪⬛⬛⬛ **70%** | **Workflow Synchronization**
 
 <br>
 
 **🟢 High-Impact Wins:**
-* **Workflow Bridging:** Effectively connecting two different technologies (Scraping + Automation) to solve a real-world problem.
-* **Selector Precision:** Using robust CSS selectors/XPaths to handle deeply nested HTML structures.
+* **Tool Synergy:** Demonstrates the ability to combine different libraries (BS4 for data, Selenium for action) into a single functional unit.
+* **Reliable Extraction:** Clean handling of list iterations to ensure no data point is missed during the transfer process.
 
-**🔧 Key Recommendations:**
-* **Headless Execution:** Run Selenium in headless mode for a smoother experience if no visual confirmation is needed.
-* **JSON Backup:** Save the scraped data into a `data.json` file before submitting it to the form to prevent data loss in case of a crash.
+**🔧 Technical Debt:**
+* **Explicit Waits:** Replacing static sleep times with `WebDriverWait` would make the form submission process more resilient to network lag.
+* **Headless Mode:** Implementing a headless browser option would allow the bot to run as a background service without a GUI.
 
 <br>
 
