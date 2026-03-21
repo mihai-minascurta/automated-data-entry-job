@@ -1,6 +1,0 @@
-# De pe un site de real estate se cauta un oras multe apartamente/locuinte 
-# Se aplica flitre precum ( 1 pat , o baie, un pret intre 2200-2700$, sa fie de tip apartament)
-# Se cauta 20 de apartamente random si se extrag date precum Adresa,pret si link
-# Se memoreaza in array uri fiecare in parte
-# Se deschide o pagina de google sheet gata creata cu cele 3 intrebari si se introduc toate datele 
-# Cu acel formular putem face un excel de tip .csv si sa l descarcam
