@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=FE428E&center=true&vCenter=true&width=600&lines=%F0%9F%8F%A0+Automated+Data+Entry+Bot;%F0%9F%94%8D+Web+Scraper+%2B+Form+Automation;%E2%8C%9B+Process+Efficiency+Tool" alt="Animated Header" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=%F0%9F%8F%A0+Automated+Data+Entry+Bot;%F0%9F%94%8D+Web+Scraper+%2B+Form+Automation;%E2%8C%9B+Process+Efficiency+Tool" alt="Animated Header" />
 </div>
 
 <br>
@@ -15,8 +15,8 @@
 <br>
 
 <h3>
-  🚀 Project Overview<br>
-  <img src="https://placehold.co/1000x2/C3B550/C3B550.png" width="100%" height="2" alt="Yellow Divider"/>
+  <span style="color: #39FF14;">🚀 Project Overview</span><br>
+  <img src="https://placehold.co/1000x2/39FF14/39FF14.png" width="100%" height="2" alt="Green Divider"/>
 </h3>
 
 A sophisticated automation script designed to streamline real estate data collection. The bot harvests property listings (prices, addresses, and URLs) from a research website and programmatically populates a Google Form, effectively transforming unstructured web data into a structured spreadsheet format.
@@ -30,8 +30,8 @@ A sophisticated automation script designed to streamline real estate data collec
 <br>
 
 <h3>
-  📁 Project Structure<br>
-  <img src="https://placehold.co/1000x2/C3B550/C3B550.png" width="100%" height="2" alt="Yellow Divider"/>
+  <span style="color: #00E5FF;">📁 Project Structure</span><br>
+  <img src="https://placehold.co/1000x2/00E5FF/00E5FF.png" width="100%" height="2" alt="Cyan Divider"/>
 </h3>
 
 ```text
@@ -41,8 +41,8 @@ automated-data-entry-job/
 └── README.md                   # Documentation
 ```
 <h3>
-  🧠 Code Review & Complexity<br>
-  <img src="https://placehold.co/1000x2/C3B550/C3B550.png" width="100%" height="2" alt="Yellow Divider"/>
+  <span style="color: #BC13FE;">🧠 Code Review & Complexity</span><br>
+  <img src="https://placehold.co/1000x2/BC13FE/BC13FE.png" width="100%" height="2" alt="Purple Divider"/>
 </h3>
 
 <div align="center">
@@ -51,12 +51,30 @@ automated-data-entry-job/
 
 <br>
 
-> **📊 SYSTEM COMPLEXITY RADAR**
->
-> 🟩🟩🟩🟩🟩🟩🟩🟩⬛⬛ **80%** | **HTML Parsing (BeautifulSoup)**<br>
-> 🟨🟨🟨🟨🟨🟨🟨🟨⬛⬛ **80%** | **Automation Flow (Selenium)**<br>
-> 🟦🟦🟦🟦🟦🟦⬛⬛⬛⬛ **60%** | **Data Sanitization**<br>
-> 🟪🟪🟪🟪🟪🟪🟪⬛⬛⬛ **70%** | **Workflow Synchronization**
+> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=18&pause=1000&color=39FF14&vCenter=true&width=400&lines=>_ANALYZING_SYSTEM_COMPLEXITY..." alt="Animated Loading" />
+> 
+> <table>
+>   <tr>
+>     <td width="260"><b><span style="color: #39FF14;">HTML Parsing (BeautifulSoup)</span></b></td>
+>     <td width="200"><img src="https://placehold.co/160x10/39FF14/39FF14.png"/><img src="https://placehold.co/40x10/2F2F2F/2F2F2F.png"/></td>
+>     <td width="50"><b><span style="color: #39FF14;">80%</span></b></td>
+>   </tr>
+>   <tr>
+>     <td width="260"><b><span style="color: #00E5FF;">Automation Flow (Selenium)</span></b></td>
+>     <td width="200"><img src="https://placehold.co/160x10/00E5FF/00E5FF.png"/><img src="https://placehold.co/40x10/2F2F2F/2F2F2F.png"/></td>
+>     <td width="50"><b><span style="color: #00E5FF;">80%</span></b></td>
+>   </tr>
+>   <tr>
+>     <td width="260"><b><span style="color: #BC13FE;">Data Sanitization</span></b></td>
+>     <td width="200"><img src="https://placehold.co/120x10/BC13FE/BC13FE.png"/><img src="https://placehold.co/80x10/2F2F2F/2F2F2F.png"/></td>
+>     <td width="50"><b><span style="color: #BC13FE;">60%</span></b></td>
+>   </tr>
+>   <tr>
+>     <td width="260"><b><span style="color: #39FF14;">Workflow Synchronization</span></b></td>
+>     <td width="200"><img src="https://placehold.co/140x10/39FF14/39FF14.png"/><img src="https://placehold.co/60x10/2F2F2F/2F2F2F.png"/></td>
+>     <td width="50"><b><span style="color: #39FF14;">70%</span></b></td>
+>   </tr>
+> </table>
 
 <br>
 
@@ -71,5 +89,5 @@ automated-data-entry-job/
 <br>
 
 <div align="center">
-  <img src="https://placehold.co/1000x3/FE428E/FE428E.png" width="100%" height="3" alt="Pink Divider"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=500&lines=[SYSTEM_SCAN_COMPLETE]----------------------------" alt="Animated Scan Divider" />
 </div>
